@@ -1,0 +1,95 @@
+UserSequenceGraphModel __Eo3UOTDEeuZyM08dAdvJg {
+  modelName "Login"
+  Start _gfcekOTiEeusTeDDHWLU9A at 20,60 size 96,32 {
+  	-Transition-> _m6iNgOT0Eeu2Sqc9lUa7uw  decorate "" at (0,0) {
+  		id _p3cIsOTiEeusTeDDHWLU9A
+  	}
+  }
+  
+  End _g-0iMOTiEeusTeDDHWLU9A at 440,276 size 96,32 {
+  }
+  
+  GoTo _m6iNgOT0Eeu2Sqc9lUa7uw at 150,55 size 121,41 {
+  	verb "goToPage"
+  	URL "/home"
+  	-Transition-> _CpENQOT5Eeu1VvbGIHRsrA  decorate "" at (0,0) {
+  		id _W0fHQOUFEeue1aT4M0qdSA
+  	}
+  }
+  
+  Enter _CpENQOT5Eeu1VvbGIHRsrA at 300,56 size 40,40 {
+  	verb "Enter"
+  	-LabeledTransition-> _E99oEOT5Eeu1VvbGIHRsrA  decorate "" at (0,0) decorate "Text" at (8,-14) {
+  		id _I9f_wOT5Eeu1VvbGIHRsrA
+  		label "peter"
+  	}
+  }
+  
+  WebElement _E99oEOT5Eeu1VvbGIHRsrA at 386,56 size 181,40 {
+  	isHighlighted false
+  	contentText "peter"
+  	attribute "id"
+  	attrValue "username"
+  	tagName "input"
+  	-Transition-> _V-0AUeUBEeuBOcSNLp6yfA  decorate "" at (0,0) {
+  		id _Ivh-weUFEeue1aT4M0qdSA
+  	}
+  }
+  
+  WebElement _UdJS4eT5Eeu1VvbGIHRsrA at 729,56 size 111,40 {
+  	isHighlighted false
+  	contentText "pwd"
+  	attribute "id"
+  	attrValue "password"
+  	tagName "input"
+  	-Transition-> _SIxmEeUFEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _SqkEgeUFEeue1aT4M0qdSA
+  	}
+  }
+  
+  Enter _V-0AUeUBEeuBOcSNLp6yfA at 620,56 size 40,40 {
+  	verb "enter"
+  	-LabeledTransition-> _UdJS4eT5Eeu1VvbGIHRsrA  decorate "" at (0,0) decorate "Text" at (5,-1) {
+  		id _XKhlgOUBEeuBOcSNLp6yfA
+  		label "pwd"
+  	}
+  }
+  
+  Screenshot _SIxmEeUFEeue1aT4M0qdSA at 760,120 size 50,43 {
+  	-Transition-> _aPqNoOUFEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _bDkW0eUFEeue1aT4M0qdSA
+  	}
+  }
+  
+  Click _aPqNoOUFEeue1aT4M0qdSA at 765,190 size 40,40 {
+  	verb "click"
+  	-Transition-> _bepJQeUFEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _BYb_8eUGEeue1aT4M0qdSA
+  	}
+  }
+  
+  WebElement _bepJQeUFEeue1aT4M0qdSA at 725,272 size 120,40 {
+  	isHighlighted false
+  	contentText "Login"
+  	attribute "type"
+  	attrValue "submit"
+  	tagName "button"
+  	-Transition-> _HTDkQeUGEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _HxEV8OUGEeue1aT4M0qdSA
+  	}
+  }
+  
+  Screenshot _HTDkQeUGEeue1aT4M0qdSA at 615,270 size 50,43 {
+  	-Transition-> _g-0iMOTiEeusTeDDHWLU9A  decorate "" at (0,0) {
+  		id _ecng0eUGEeue1aT4M0qdSA
+  	}
+  }
+  
+  Comment _JkDWgeUGEeue1aT4M0qdSA at 551,340 size 178,61 {
+  	content "This is the user welcome page.\nFrom here you can manage your lists."
+  }
+  
+  Comment _zmoVkOUIEeu0sblo67K-eQ at 860,102 size 200,80 {
+  	content "Login\nEnter your username and password."
+  }
+}
