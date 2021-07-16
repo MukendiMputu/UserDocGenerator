@@ -1,1 +1,4 @@
 /bin/
+.directory
+.vscode/settings.json
+target/dependencies.txt
