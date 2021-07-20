@@ -6,7 +6,7 @@ UserSequenceGraphModel __Eo3UOTDEeuZyM08dAdvJg {
   	}
   }
   
-  End _g-0iMOTiEeusTeDDHWLU9A at 440,276 size 96,32 {
+  Stop _g-0iMOTiEeusTeDDHWLU9A at 440,276 size 96,32 {
   }
   
   GoTo _m6iNgOT0Eeu2Sqc9lUa7uw at 150,55 size 121,41 {
@@ -85,11 +85,17 @@ UserSequenceGraphModel __Eo3UOTDEeuZyM08dAdvJg {
   	}
   }
   
-  Comment _JkDWgeUGEeue1aT4M0qdSA at 551,340 size 178,61 {
+  Comment _JkDWgeUGEeue1aT4M0qdSA at 547,360 size 185,61 {
   	content "This is the user welcome page.\nFrom here you can manage your lists."
+  	-Anchor-> _HTDkQeUGEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _BB584ekEEeudWoSzBRpHsQ
+  	}
   }
   
-  Comment _zmoVkOUIEeu0sblo67K-eQ at 860,102 size 200,80 {
+  Comment _zmoVkOUIEeu0sblo67K-eQ at 870,111 size 200,80 {
   	content "Login\nEnter your username and password."
+  	-Anchor-> _SIxmEeUFEeue1aT4M0qdSA  decorate "" at (0,0) {
+  		id _AfrZkekEEeudWoSzBRpHsQ
+  	}
   }
 }

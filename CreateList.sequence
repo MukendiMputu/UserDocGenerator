@@ -6,7 +6,7 @@ UserSequenceGraphModel _qmvBYOUTEeuUHIqD2C7mYg {
   	}
   }
   
-  End _uMMFIeUTEeuUHIqD2C7mYg at 717,410 size 96,32 {
+  Stop _uMMFIeUTEeuUHIqD2C7mYg at 717,410 size 96,32 {
   }
   
   Sequence _xlxQEOUTEeuUHIqD2C7mYg at 250,60 size 90,40 {
@@ -59,8 +59,11 @@ UserSequenceGraphModel _qmvBYOUTEeuUHIqD2C7mYg {
   	}
   }
   
-  Comment _rqdyceUXEeuUHIqD2C7mYg at 860,290 size 221,101 {
+  Comment _rqdyceUXEeuUHIqD2C7mYg at 860,290 size 514,101 {
   	content "You will be now presented with the list details, like e.g. the owner(s) of the list, the description, if there's any.\nAlso the option to add a description, another owner, etc. And of course there's as well the option to delete all\nof them including the created list."
   	referenceTo _aw1i4eUXEeuUHIqD2C7mYg
+  	-Anchor-> _aw1i4eUXEeuUHIqD2C7mYg  decorate "" at (0,0) {
+  		id _-anxkOkDEeudWoSzBRpHsQ
+  	}
   }
 }

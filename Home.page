@@ -1,0 +1,20 @@
+PageGraphModel _gQcLkOj7Eeunr9BQTqFoTQ {
+  name "Home"
+  hasLogin true
+  URL "http://localhost:8080"
+  UserSequence _oXXPYOj7Eeunr9BQTqFoTQ at 420,106 size 143,99 {
+  	libraryComponentUID "__Eo3UOTDEeuZyM08dAdvJg"
+  	-Connection-> _gM6c0OkDEeudWoSzBRpHsQ  decorate "" at (0,0) {
+  		id _g2pWUekDEeudWoSzBRpHsQ
+  	}
+  }
+  
+  Begin _ddzLMOkDEeudWoSzBRpHsQ at 160,140 size 96,32 {
+  	-Connection-> _oXXPYOj7Eeunr9BQTqFoTQ  decorate "" at (0,0) {
+  		id _eeHYsOkDEeudWoSzBRpHsQ
+  	}
+  }
+  
+  End _gM6c0OkDEeudWoSzBRpHsQ at 810,140 size 96,32 {
+  }
+}
