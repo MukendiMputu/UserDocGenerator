@@ -1,5 +1,5 @@
 UserSequenceGraphModel _qmvBYOUTEeuUHIqD2C7mYg {
-  modelName ""
+  modelName "createList"
   Start _tbdLweUTEeuUHIqD2C7mYg at 60,60 size 96,32 {
   	-Transition-> _xlxQEOUTEeuUHIqD2C7mYg  decorate "" at (0,0) {
   		id _73cUMOUTEeuUHIqD2C7mYg

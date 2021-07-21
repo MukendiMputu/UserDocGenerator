@@ -12,9 +12,9 @@ public class ToDoSite extends Site {
 	}
 
 	public Boolean Login() {
-		return true;
+		return loginPage.login(this.getsUserName(), this.getsPassword());
 	}
 
-	public void CloseSite() {
+	public void closeSite() {
 	}
 }

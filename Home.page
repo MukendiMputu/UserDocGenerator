@@ -1,8 +1,8 @@
 PageGraphModel _gQcLkOj7Eeunr9BQTqFoTQ {
   name "Home"
   hasLogin true
-  URL "http://localhost:8080"
-  UserSequence _oXXPYOj7Eeunr9BQTqFoTQ at 320,138 size 111,31 {
+  URL "http://localhost:8080/home"
+  UserSequence _oXXPYOj7Eeunr9BQTqFoTQ at 320,138 size 111,63 {
   	libraryComponentUID "__Eo3UOTDEeuZyM08dAdvJg"
   	-Connection-> _gM6c0OkDEeudWoSzBRpHsQ  decorate "" at (0,0) {
   		id _g2pWUekDEeudWoSzBRpHsQ
