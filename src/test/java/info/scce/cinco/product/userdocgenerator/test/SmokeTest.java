@@ -19,7 +19,6 @@ public class SmokeTest {
 	
 	@Test
 	public void testCallFunction() throws InterruptedException {
-		bResult =  site.login();
 		Thread.sleep(3000);
 		
 		Assert.assertTrue(bResult, "Login failed");

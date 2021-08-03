@@ -1,8 +1,5 @@
 package info.scce.cinco.product.userdocgenerator.site;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.Properties;
 
 public class ToDoSite extends Site {
 
@@ -12,7 +9,7 @@ public class ToDoSite extends Site {
 	}
 
 	public Boolean Login() {
-		return loginPage.login(this.getsUserName(), this.getsPassword());
+		return true;
 	}
 
 	public void closeSite() {
