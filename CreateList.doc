@@ -1,0 +1,54 @@
+UserSequenceGraphModel _qmvBYOUTEeuUHIqD2C7mYg {
+  modelName "createList"
+  Start _tbdLweUTEeuUHIqD2C7mYg at 60,60 size 96,32 {
+  	-Transition-> _nnRdcPP3EeufjZCmnkuwew  decorate "" at (0,0) {
+  		id _pB1-AfP3EeufjZCmnkuwew
+  	}
+  }
+  
+  Stop _uMMFIeUTEeuUHIqD2C7mYg at 478,390 size 96,32 {
+  }
+  
+  WebElement _m7ewQeUWEeuUHIqD2C7mYg at 370,110 size 311,40 {
+  	isHighlighted false
+  	contentText ""
+  	attribute "data-cinco-id"
+  	attrValue "_BNRdEPvvEeWWodZOLky4iQ"
+  	tagName "input"
+  	-Transition-> _K3rR0eUXEeuUHIqD2C7mYg  decorate "" at (0,0) {
+  		id _r-VkUfP3EeufjZCmnkuwew
+  	}
+  }
+  
+  WebElement _K3rR0eUXEeuUHIqD2C7mYg at 370,200 size 311,40 {
+  	isHighlighted false
+  	contentText "List"
+  	attribute "data-cinco-id"
+  	attrValue "_ArN44PvvEeWWodZOLky4iQ"
+  	tagName "button"
+  	-Transition-> _aw1i4eUXEeuUHIqD2C7mYg  decorate "" at (0,0) {
+  		id _bKjqceUXEeuUHIqD2C7mYg
+  	}
+  }
+  
+  Screenshot _aw1i4eUXEeuUHIqD2C7mYg at 501,280 size 50,43 {
+  	-Transition-> _uMMFIeUTEeuUHIqD2C7mYg  decorate "" at (0,0) {
+  		id _brcxAeUXEeuUHIqD2C7mYg
+  	}
+  }
+  
+  Comment _rqdyceUXEeuUHIqD2C7mYg at 600,270 size 501,80 {
+  	content "You will be now presented with the list details, like e.g. the owner(s) of the list, the description, if there's any.\nAlso the option to add a description, another owner, etc. And of course there's as well the option to delete all\nof them including the created list."
+  	referenceTo _aw1i4eUXEeuUHIqD2C7mYg
+  	-Anchor-> _aw1i4eUXEeuUHIqD2C7mYg  decorate "" at (0,0) {
+  		id _-anxkOkDEeudWoSzBRpHsQ
+  	}
+  }
+  
+  SubSequence _nnRdcPP3EeufjZCmnkuwew at 240,56 size 90,40 {
+  	libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
+  	-Transition-> _m7ewQeUWEeuUHIqD2C7mYg via (525,76) decorate "" at (0,0) {
+  		id _pvwM4fP3EeufjZCmnkuwew
+  	}
+  }
+}
