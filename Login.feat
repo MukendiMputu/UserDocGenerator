@@ -1,0 +1,30 @@
+FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
+  name "Login"
+  StartNode _ddFHEPQHEeufjZCmnkuwew at 140,160 size 96,32 {
+  	-Edge-> _LBse8fQJEeufjZCmnkuwew  decorate "" at (0,0) {
+  		id _Uj3YwfQJEeufjZCmnkuwew
+  	}
+  }
+  
+  EndNode _d2lzQPQHEeufjZCmnkuwew at 610,170 size 96,32 {
+  }
+  
+  FeatureContainer _eRm7UPQHEeufjZCmnkuwew at 270,100 size 301,151 {
+  	title "Login as user"
+  	DocNode _A7fgcPQIEeufjZCmnkuwew at 180,60 size 90,40 {
+  		createScreenshots true
+  		libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
+  		-Edge-> _d2lzQPQHEeufjZCmnkuwew  decorate "" at (0,0) {
+  			id _DrCP4PQIEeufjZCmnkuwew
+  		}
+  	}
+  	
+  	DocNode _LBse8fQJEeufjZCmnkuwew at 40,60 size 90,40 {
+  		createScreenshots true
+  		libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
+  		-Edge-> _A7fgcPQIEeufjZCmnkuwew  decorate "" at (0,0) {
+  			id _U98ssfQJEeufjZCmnkuwew
+  		}
+  	}
+  }
+}

@@ -1,0 +1,11 @@
+=== createList ===
+
+The model contains 7 nodes. Here's some general information about them:
+
+* node _tbdLweUTEeuUHIqD2C7mYg of type 'Start' with 1 successors and 0 predecessors
+* node _uMMFIeUTEeuUHIqD2C7mYg of type 'Stop' with 0 successors and 1 predecessors
+* node _m7ewQeUWEeuUHIqD2C7mYg of type 'WebElement' with 1 successors and 1 predecessors
+* node _K3rR0eUXEeuUHIqD2C7mYg of type 'WebElement' with 1 successors and 1 predecessors
+* node _aw1i4eUXEeuUHIqD2C7mYg of type 'Screenshot' with 1 successors and 2 predecessors
+* node _rqdyceUXEeuUHIqD2C7mYg of type 'Comment' with 1 successors and 0 predecessors
+* node _nnRdcPP3EeufjZCmnkuwew of type 'SubSequence' with 1 successors and 1 predecessors

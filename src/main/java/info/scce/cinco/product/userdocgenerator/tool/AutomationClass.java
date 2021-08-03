@@ -2,8 +2,11 @@ package info.scce.cinco.product.userdocgenerator.tool;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Properties;
 import org.openqa.selenium.By;
+import java.io.FileInputStream;
 import org.openqa.selenium.Keys;
+import java.io.FileNotFoundException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.OutputType;
@@ -14,13 +17,29 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AutomationClass {
 	protected WebDriver driver;
-	protected String sBrowserName;
+	protected String sBrowserName, sSiteURL, sUserName, sPassword;
 	protected WebElement element;
+	protected Properties props;
 	
 	public AutomationClass() {
-		driver = null;
-		sBrowserName = null;
-		element = null;
+		try {
+			// Try loading the properties from config.properties file
+			props = new Properties();
+			FileInputStream fis = new FileInputStream("/home/mukendi/Dokumente/TU Dortmund/Bachelor/10. Semester/Bachelorarbeit/cinco-2.1.2/runtime-EclipseApplication/UserDocGenerator/src/main/java/info/scce/cinco/product/userdocgenerator/config/config.properties");
+			props.load(fis);
+			
+			sBrowserName = props.getProperty("browser");
+			sSiteURL = props.getProperty("url");
+			sUserName = props.getProperty("user");
+			sPassword = props.getProperty("password");
+			driver = null;
+			element = null;
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public Boolean openBrowser(String sBrowserType) {

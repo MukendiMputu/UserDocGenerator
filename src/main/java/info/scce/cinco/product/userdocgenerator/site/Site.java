@@ -6,23 +6,21 @@ import java.util.Properties;
 
 public class Site {
 	
-	public String sUrl;
-	public String sUsername;
-	public String sPassword;
-	public String sDomain;
+	public String sStartNode;
+	public String sEndNode;
+	public String sFeatureContainer;
 	public Properties props;
 	
 	public Site() {
 		try {
 			// Try loading the properties from config.properties file
 			props = new Properties();
-			FileInputStream fis = new FileInputStream("/UserDocGenerator/src/main/java/info/scce/cinco/product/userdocgenerator/config/config.properties");
+			FileInputStream fis = new FileInputStream("/home/mukendi/Dokumente/TU Dortmund/Bachelor/10. Semester/Bachelorarbeit/cinco-2.1.2/runtime-EclipseApplication/UserDocGenerator/src/main/java/info/scce/cinco/product/userdocgenerator/config/config.properties");
 			props.load(fis);
 								
-			sUrl = props.getProperty("url");
-			sUsername = props.getProperty("username");
-			sPassword = props.getProperty("password");
-			sDomain = props.getProperty("domain");
+			sStartNode = props.getProperty("startnode");
+			sEndNode = props.getProperty("endnode");
+			sFeatureContainer = props.getProperty("featurecontainer");
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -31,20 +29,16 @@ public class Site {
 		}
 	}
 	
-	public String getsUrl() {
-		return sUrl;
+	public String getsStartNode() {
+		return sStartNode;
 	}
 	
-	public String getsUsername() {
-		return sUsername;
+	public String getsEndNode() {
+		return sEndNode;
 	}
 	
-	public String getsPassword() {
-		return sPassword;
-	}
-	
-	public String getsDomain() {
-		return sDomain;
+	public String getsFeatureContainer() {
+		return sFeatureContainer;
 	}
 	
 }

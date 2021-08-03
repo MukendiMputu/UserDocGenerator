@@ -1,0 +1,14 @@
+=== Login ===
+
+The model contains 10 nodes. Here's some general information about them:
+
+* node _gfcekOTiEeusTeDDHWLU9A of type 'Start' with 1 successors and 0 predecessors
+* node _g-0iMOTiEeusTeDDHWLU9A of type 'Stop' with 0 successors and 1 predecessors
+* node _m6iNgOT0Eeu2Sqc9lUa7uw of type 'Navigation' with 1 successors and 1 predecessors
+* node _E99oEOT5Eeu1VvbGIHRsrA of type 'WebElement' with 1 successors and 1 predecessors
+* node _UdJS4eT5Eeu1VvbGIHRsrA of type 'WebElement' with 1 successors and 1 predecessors
+* node _SIxmEeUFEeue1aT4M0qdSA of type 'Screenshot' with 1 successors and 2 predecessors
+* node _bepJQeUFEeue1aT4M0qdSA of type 'WebElement' with 1 successors and 1 predecessors
+* node _HTDkQeUGEeue1aT4M0qdSA of type 'Screenshot' with 1 successors and 2 predecessors
+* node _JkDWgeUGEeue1aT4M0qdSA of type 'Comment' with 1 successors and 0 predecessors
+* node _zmoVkOUIEeu0sblo67K-eQ of type 'Comment' with 1 successors and 0 predecessors

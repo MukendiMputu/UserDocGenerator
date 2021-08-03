@@ -1,20 +1,15 @@
-/**
- * 
- */
 package info.scce.cinco.product.userdocgenerator.main;
 
-/**
- * @author mukendi
- *
- */
+import info.scce.cinco.product.userdocgenerator.site.Site;
+
 public class Main {
+	private static Site site;
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	public Main () {
+		site = new Site();
 	}
-
+	
+	public static void main (String[] args){
+		site.getsStartNode();
+	}
 }
