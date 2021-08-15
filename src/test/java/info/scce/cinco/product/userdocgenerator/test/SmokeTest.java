@@ -5,24 +5,23 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import info.scce.cinco.product.userdocgenerator.site.Site;
+import info.scce.cinco.product.userdocgenerator.main.Main;
 
 public class SmokeTest {
 	
-	Boolean bResult = false;
-	Site site; 
+	Boolean loggedIn = false;
+	Main site; 
 	
 	@BeforeMethod
 	public void beforeMethod() {
-		site = new Site();
 	}
 	
 	@Test
 	public void testCallFunction() throws InterruptedException {
-		bResult = site.getsStartNode().isEmpty();
+		loggedIn = Main.Login("peter", "pwd");
 		Thread.sleep(3000);
 		
-		Assert.assertTrue(bResult, "Login failed");
+		Assert.assertTrue(loggedIn, "Login failed");
 	}
 	
 	@AfterMethod
