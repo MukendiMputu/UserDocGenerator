@@ -52,7 +52,7 @@ FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
   		key "browser"
   	}
   	
-  	KeyValue _zFQh0fT2EeuvSpwDoeHw-g at 20,80 size 108,32 {
+  	KeyValue _zFQh0fT2EeuvSpwDoeHw-g at 20,80 size 121,32 {
   		value "http://localhost:8080"
   		key "url"
   	}
