@@ -1,0 +1,11 @@
+=== Login ===
+
+The model contains 7 nodes. Here's some general information about them:
+
+* node _ddFHEPQHEeufjZCmnkuwew of type 'StartNode' with 1 successors and 0 predecessors
+* node _d2lzQPQHEeufjZCmnkuwew of type 'EndNode' with 0 successors and 1 predecessors
+* node _eRm7UPQHEeufjZCmnkuwew of type 'FeatureContainer' with 0 successors and 0 predecessors
+* node _qWk6cfT2EeuvSpwDoeHw-g of type 'StartNode' with 1 successors and 0 predecessors
+* node _qtIZQfT2EeuvSpwDoeHw-g of type 'EndNode' with 0 successors and 1 predecessors
+* node _rW4g4fT2EeuvSpwDoeHw-g of type 'DocNode' with 1 successors and 1 predecessors
+* node _Hu50YAHyEeyXBKWdKwiKsg of type 'ConfigurationContainer' with 0 successors and 0 predecessors

@@ -12,7 +12,7 @@ FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
   FeatureContainer _eRm7UPQHEeufjZCmnkuwew at 270,100 size 301,151 {
   	title "Login as user"
   	DocNode _A7fgcPQIEeufjZCmnkuwew at 180,50 size 90,40 {
-  		createScreenshots true
+  		createScreenshots false
   		libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
   		-Edge-> _d2lzQPQHEeufjZCmnkuwew  decorate "" at (0,0) {
   			id _DrCP4PQIEeufjZCmnkuwew
@@ -20,7 +20,7 @@ FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
   	}
   	
   	DocNode _LBse8fQJEeufjZCmnkuwew at 40,60 size 90,40 {
-  		createScreenshots true
+  		createScreenshots false
   		libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
   		-Edge-> _A7fgcPQIEeufjZCmnkuwew  decorate "" at (0,0) {
   			id _U98ssfQJEeufjZCmnkuwew
@@ -38,31 +38,31 @@ FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
   }
   
   DocNode _rW4g4fT2EeuvSpwDoeHw-g at 860,331 size 90,40 {
-  	createScreenshots true
+  	createScreenshots false
   	libraryComponentUID "_qmvBYOUTEeuUHIqD2C7mYg"
   	-Edge-> _qtIZQfT2EeuvSpwDoeHw-g  decorate "" at (0,0) {
   		id _wZhUUfT2EeuvSpwDoeHw-g
   	}
   }
   
-  FeatureContainer _0GjmwfT2EeuvSpwDoeHw-g at 20,260 size 191,221 {
-  	title "User credentials"
-  	KeyValue _ws5jUPT2EeuvSpwDoeHw-g at 20,30 size 108,32 {
+  ConfigurationContainer _Hu50YAHyEeyXBKWdKwiKsg at 300,280 size 231,241 {
+  	title "User Credentials"
+  	KeyValue _ws5jUPT2EeuvSpwDoeHw-g at 34,40 size 108,32 {
   		value "firefox"
   		key "browser"
   	}
   	
-  	KeyValue _zFQh0fT2EeuvSpwDoeHw-g at 20,80 size 131,32 {
+  	KeyValue _zFQh0fT2EeuvSpwDoeHw-g at 34,90 size 131,32 {
   		value "http://localhost:8080"
   		key "url"
   	}
   	
-  	KeyValue _zWL5wfT2EeuvSpwDoeHw-g at 20,130 size 108,32 {
+  	KeyValue _zWL5wfT2EeuvSpwDoeHw-g at 34,140 size 108,32 {
   		value "peter"
   		key "user"
   	}
   	
-  	KeyValue _fnJsMf1uEeuZYLRJO9SwCA at 20,180 size 100,32 {
+  	KeyValue _fnJsMf1uEeuZYLRJO9SwCA at 34,190 size 100,32 {
   		value "pwd"
   		key "password"
   	}
