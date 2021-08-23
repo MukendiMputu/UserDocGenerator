@@ -45,26 +45,25 @@ FeaturesGraphModel _cBy00PQHEeufjZCmnkuwew {
   	}
   }
   
-  ConfigurationContainer _Hu50YAHyEeyXBKWdKwiKsg at 300,280 size 231,241 {
+  PropertyContainer _Hu50YAHyEeyXBKWdKwiKsg at 300,280 size 231,241 {
   	title "User Credentials"
-  	KeyValue _ws5jUPT2EeuvSpwDoeHw-g at 34,40 size 108,32 {
+  	BaseURL _KaihAAOvEeyprsyyjtxvdQ at 34,90 size 150,32 {
+  		content "http://localhost"
+  	}
+  	
+  	UserName _UDZxUAOyEeyCGZ0nj8mIeQ at 34,140 size 102,32 {
+  		name "username"
+  		value "mukendi"
+  	}
+  	
+  	Password _X6IyUAOyEeyCGZ0nj8mIeQ at 34,190 size 176,32 {
+  		name "password"
+  		value "KKDxkXLgHwaHnnfA&7"
+  	}
+  	
+  	BrowserName _e9W9cAOyEeyCGZ0nj8mIeQ at 34,40 size 100,32 {
+  		name "browser"
   		value "firefox"
-  		key "browser"
-  	}
-  	
-  	KeyValue _zFQh0fT2EeuvSpwDoeHw-g at 34,90 size 131,32 {
-  		value "http://localhost:8080"
-  		key "url"
-  	}
-  	
-  	KeyValue _zWL5wfT2EeuvSpwDoeHw-g at 34,140 size 108,32 {
-  		value "peter"
-  		key "user"
-  	}
-  	
-  	KeyValue _fnJsMf1uEeuZYLRJO9SwCA at 34,190 size 100,32 {
-  		value "pwd"
-  		key "password"
   	}
   }
 }
