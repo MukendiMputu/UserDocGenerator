@@ -1,0 +1,54 @@
+FeatureGraphModel _cBy00PQHEeufjZCmnkuwew {
+  modelName "Login"
+  StartNode _ddFHEPQHEeufjZCmnkuwew at 100,170 size 96,32 {
+  	-Edge-> _-x9GIRBYEey9vpAjNZRbIA  decorate "" at (0,0) {
+  		id __dWzkRBYEey9vpAjNZRbIA
+  	}
+  }
+  
+  EndNode _d2lzQPQHEeufjZCmnkuwew at 580,170 size 96,32 {
+  }
+  
+  FeatureContainer _eRm7UPQHEeufjZCmnkuwew at 230,110 size 301,151 {
+  	title "Login as user"
+  	DocNode _9fmYIRAxEey0V8PB31_ONQ at 160,50 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
+  		-Edge-> _d2lzQPQHEeufjZCmnkuwew  decorate "" at (0,0) {
+  			id _-ncxARAxEey0V8PB31_ONQ
+  		}
+  	}
+  	
+  	DocNode _-x9GIRBYEey9vpAjNZRbIA at 10,50 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
+  		-Edge-> _9fmYIRAxEey0V8PB31_ONQ  decorate "" at (0,0) {
+  			id __3DtARBYEey9vpAjNZRbIA
+  		}
+  	}
+  }
+  
+  PropertyContainer _Hu50YAHyEeyXBKWdKwiKsg at 230,300 size 231,241 {
+  	title "User Credentials"
+  	BaseURL _KaihAAOvEeyprsyyjtxvdQ at 34,90 size 187,32 {
+  		content "https://archmukki-localnet.de"
+  	}
+  	
+  	Username _UDZxUAOyEeyCGZ0nj8mIeQ at 34,140 size 117,32 {
+  		value "mputustella@yahoo.de"
+  	}
+  	
+  	Password _X6IyUAOyEeyCGZ0nj8mIeQ at 34,190 size 187,32 {
+  		value "Asdfjklö"
+  	}
+  	
+  	Browser _uZzK0A0JEeyu-r5wLJ4ipA at 35,50 size 100,32 {
+  		name chrome
+  	}
+  }
+  
+  DocNode _Qqd_0RBZEey9vpAjNZRbIA at 239,34 size 100,50 {
+  	createScreenshots true
+  	libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
+  }
+}
