@@ -1,4 +1,4 @@
-DocGraphModel _BOZY4fQJEeufjZCmnkuwew {
+DocGraphModel _BOZ00fQJEeufjZCmnkuwew {
   modelName "GoToLoginPage"
   Start _B8misfQJEeufjZCmnkuwew at 30,210 size 96,32 {
   	-Transition-> _C23LgfQJEeufjZCmnkuwew  decorate "" at (0,0) {
@@ -10,7 +10,7 @@ DocGraphModel _BOZY4fQJEeufjZCmnkuwew {
   }
   
   Navigation _C23LgfQJEeufjZCmnkuwew at 210,210 size 125,32 {
-  	link "http://localhost:8080/login"
+  	link "http://localhost:3000/login"
   	-Transition-> _CXZBQfQJEeufjZCmnkuwew  decorate "" at (0,0) {
   		id _DlzVIfQJEeufjZCmnkuwew
   	}

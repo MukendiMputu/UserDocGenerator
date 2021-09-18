@@ -1,90 +1,37 @@
 DocGraphModel _NU-AkPPyEeufjZCmnkuwew {
   modelName "Login"
   Start _gfcekOTiEeusTeDDHWLU9A at 24,20 size 96,32 {
-  	-Transition-> _b0Wo4BBaEey9vpAjNZRbIA  decorate "" at (0,0) {
-  		id _cWxZcRBaEey9vpAjNZRbIA
+  	-Transition-> _WHY18BUDEeyWRa0PIot5Mg via (72,110) decorate "" at (0,0) {
+  		id _WU0nQRT-EeyEZ-HBso9hKg
   	}
   }
   
-  SectionNode _NfOJ8AKyEeyVjfDaOJVn5g at 300,51 size 541,350 {
-  	title "Enter user credentials"
-  	Input _E99oEOT5Eeu1VvbGIHRsrA at 40,49 size 181,40 {
-  		content "mputustella@yahoo.de"
-  		selector "id"
-  		value "email"
-  		Highlighted true
-  		-Transition-> _UdJS4eT5Eeu1VvbGIHRsrA  decorate "" at (0,0) {
-  			id _SRM0kfPzEeufjZCmnkuwew
-  		}
-  	}
-  	
-  	Input _UdJS4eT5Eeu1VvbGIHRsrA at 75,119 size 111,40 {
-  		content "Asdfjklö"
-  		selector "id"
-  		value "password"
-  		Highlighted true
-  		-Transition-> _SIxmEeUFEeue1aT4M0qdSA  decorate "" at (0,0) {
-  			id _SqkEgeUFEeue1aT4M0qdSA
-  		}
-  	}
-  	
-  	Screenshot _SIxmEeUFEeue1aT4M0qdSA at 220,117 size 50,43 {
-  		-Transition-> _2CNF4AKxEeyVjfDaOJVn5g  decorate "" at (0,0) {
-  			id _TAhYsfPzEeufjZCmnkuwew
-  		}
-  	}
-  	
-  	Screenshot _HTDkQeUGEeue1aT4M0qdSA at 106,207 size 50,43 {
-  		-Transition-> _UzgdkQ0_EeycBIyARjSQnA  decorate "" at (0,0) {
-  			id _VXbqAQ0_EeycBIyARjSQnA
-  		}
-  	}
-  	
-  	Comment _zmoVkOUIEeu0sblo67K-eQ at 310,99 size 200,80 {
-  		content "Login\nEnter your username and password."
-  		referenceTo _SIxmEeUFEeue1aT4M0qdSA
-  		-Anchor-> _SIxmEeUFEeue1aT4M0qdSA  decorate "" at (0,0) {
-  			id _AfrZkekEEeudWoSzBRpHsQ
-  		}
-  	}
-  	
-  	Button _2CNF4AKxEeyVjfDaOJVn5g at 200,209 size 90,40 {
-  		content "Login"
-  		selector "type"
-  		value "submit"
-  		Highlighted false
-  		-Transition-> _HTDkQeUGEeue1aT4M0qdSA  decorate "" at (0,0) {
-  			id _34gt8QK2EeyVjfDaOJVn5g
-  		}
-  	}
-  	
-  	Comment _JkDWgeUGEeue1aT4M0qdSA at 40,269 size 185,61 {
-  		content "This is the user welcome page.\nFrom here you can manage your lists."
-  		referenceTo _HTDkQeUGEeue1aT4M0qdSA
-  		-Anchor-> _HTDkQeUGEeue1aT4M0qdSA  decorate "" at (0,0) {
-  			id _BB584ekEEeudWoSzBRpHsQ
-  		}
-  	}
+  Stop _UzgdkQ0_EeycBIyARjSQnA at 520,94 size 96,32 {
   }
   
-  Stop _UzgdkQ0_EeycBIyARjSQnA at 180,260 size 96,32 {
-  }
-  
-  SubDoc _b0Wo4BBaEey9vpAjNZRbIA at 13,100 size 118,40 {
-  	createScreenshots true
-  	libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
-  	-Transition-> _if1pcRBaEey9vpAjNZRbIA  decorate "" at (0,0) {
-  		id _rdMmARBaEey9vpAjNZRbIA
-  	}
-  }
-  
-  Button _if1pcRBaEey9vpAjNZRbIA at 180,100 size 90,40 {
+  Button _if1pcRBaEey9vpAjNZRbIA at 240,90 size 90,40 {
   	content "Sign in"
   	selector "data-target"
   	value "#login_main"
   	Highlighted false
-  	-Transition-> _E99oEOT5Eeu1VvbGIHRsrA  decorate "" at (0,0) {
-  		id _saLLoRBaEey9vpAjNZRbIA
+  	-Transition-> _uwmx8RUEEeyWRa0PIot5Mg  decorate "" at (0,0) {
+  		id _3JcFIRUEEeyWRa0PIot5Mg
+  	}
+  }
+  
+  SubDoc _WHY18BUDEeyWRa0PIot5Mg at 100,90 size 121,40 {
+  	createScreenshots true
+  	libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
+  	-Transition-> _if1pcRBaEey9vpAjNZRbIA  decorate "" at (0,0) {
+  		id _YTKJ8RUDEeyWRa0PIot5Mg
+  	}
+  }
+  
+  SubDoc _uwmx8RUEEeyWRa0PIot5Mg at 350,90 size 130,40 {
+  	createScreenshots true
+  	libraryComponentUID "_j_-g8RUEEeyWRa0PIot5Mg"
+  	-Transition-> _UzgdkQ0_EeycBIyARjSQnA  decorate "" at (0,0) {
+  		id _47IsQRUEEeyWRa0PIot5Mg
   	}
   }
 }

@@ -10,7 +10,7 @@ DocGraphModel _BOZY4fQJEeufjZCmnkuwew {
   }
   
   Navigation _C23LgfQJEeufjZCmnkuwew at 210,210 size 100,32 {
-  	link "http://localhost:8080"
+  	link "http://localhost:3000"
   	-Transition-> _CXZBQfQJEeufjZCmnkuwew  decorate "" at (0,0) {
   		id _DlzVIfQJEeufjZCmnkuwew
   	}
