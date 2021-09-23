@@ -2,17 +2,24 @@ DocGraphModel _BOZY4fQJEeufjZCmnkuwew {
   modelName "GoToHomePage"
   Start _B8misfQJEeufjZCmnkuwew at 30,210 size 96,32 {
   	-Transition-> _C23LgfQJEeufjZCmnkuwew  decorate "" at (0,0) {
-  		id _DVtDoPQJEeufjZCmnkuwew
+  		id _PnhtgBsMEeybZd1BQHV4ow
   	}
   }
   
-  Stop _CXZBQfQJEeufjZCmnkuwew at 420,210 size 96,32 {
+  EndNode _CXZBQfQJEeufjZCmnkuwew at 420,210 size 96,32 {
   }
   
   Navigation _C23LgfQJEeufjZCmnkuwew at 210,210 size 100,32 {
   	link "http://localhost:3000"
   	-Transition-> _CXZBQfQJEeufjZCmnkuwew  decorate "" at (0,0) {
-  		id _DlzVIfQJEeufjZCmnkuwew
+  		id _nfirgRsMEeybZd1BQHV4ow
+  	}
+  }
+  
+  Comment _f_4cARsMEeybZd1BQHV4ow at 220,360 size 113,40 {
+  	content "Enter the website URL"
+  	-Anchor-> _C23LgfQJEeufjZCmnkuwew  decorate "" at (0,0) {
+  		id _gaxBMRsMEeybZd1BQHV4ow
   	}
   }
 }

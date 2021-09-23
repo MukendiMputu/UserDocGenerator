@@ -1,52 +1,70 @@
 FeatureGraphModel _cBy00PQHEeufjZCmnkuwew {
   modelName "Login"
-  StartNode _Kg7Z8RaUEey3aNLxBBi3hw at 70,69 size 96,32 {
-  	-Edge-> _LOcAMRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
-  		id _M-4qIRaUEey3aNLxBBi3hw
+  FeatureContainer _B41o4RwdEeyiKOawQ5KrHQ at 330,120 size 300,361 index 2 {
+  	title "Login Feature 2"
+  	Start _KGmUgRwdEeyiKOawQ5KrHQ at 100,40 size 96,32 {
+  		-Edge-> _LOcAMRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
+  			id _MJEikRwdEeyiKOawQ5KrHQ
+  		}
+  	}
+  	
+  	End _KYxpoBwdEeyiKOawQ5KrHQ at 100,320 size 96,32 {
+  	}
+  	
+  	DocNode _LOcAMRaUEey3aNLxBBi3hw at 98,100 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_BOZ00fQJEeufjZCmnkuwew"
+  		-Edge-> _L24gQRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
+  			id _NbCaoBaUEey3aNLxBBi3hw
+  		}
+  	}
+  	
+  	DocNode _L24gQRaUEey3aNLxBBi3hw at 82,180 size 131,50 {
+  		createScreenshots true
+  		libraryComponentUID "_j_-g8RUEEeyWRa0PIot5Mg"
+  		-Edge-> _KYxpoBwdEeyiKOawQ5KrHQ  decorate "" at (0,0) {
+  			id _MoGn8RwdEeyiKOawQ5KrHQ
+  		}
   	}
   }
   
-  DocNode _LOcAMRaUEey3aNLxBBi3hw at 240,60 size 100,50 {
-  	createScreenshots true
-  	libraryComponentUID "_BOZ00fQJEeufjZCmnkuwew"
-  	-Edge-> _L24gQRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
-  		id _NbCaoBaUEey3aNLxBBi3hw
-  	}
-  }
-  
-  DocNode _L24gQRaUEey3aNLxBBi3hw at 380,60 size 131,50 {
-  	createScreenshots true
-  	libraryComponentUID "_j_-g8RUEEeyWRa0PIot5Mg"
-  	-Edge-> _MW3n4RaUEey3aNLxBBi3hw  decorate "" at (0,0) {
-  		id _NwE2gRaUEey3aNLxBBi3hw
-  	}
-  }
-  
-  EndNode _MW3n4RaUEey3aNLxBBi3hw at 590,69 size 96,32 {
-  }
-  
-  StartNode _VIZu8RaUEey3aNLxBBi3hw at 70,170 size 96,32 {
-  	-Edge-> _ZAc-kRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
-  		id _aTBZsRaUEey3aNLxBBi3hw
-  	}
-  }
-  
-  DocNode _ZAc-kRaUEey3aNLxBBi3hw at 218,170 size 100,50 {
-  	createScreenshots true
-  	libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
-  	-Edge-> _ZnxdQBaUEey3aNLxBBi3hw  decorate "" at (0,0) {
-  		id _apBe4RaUEey3aNLxBBi3hw
-  	}
-  }
-  
-  EndNode _ZnxdQBaUEey3aNLxBBi3hw at 400,180 size 96,32 {
-  }
-  
-  PropertyContainer _0r7xsBaVEey4buUmFSBn-A at 80,350 size 300,75 {
+  PropertyContainer _0r7xsBaVEey4buUmFSBn-A at 10,10 size 620,75 index 0 {
   	title "Properties"
   	WebDriver _nQPmgBgzEeyw5rj5LUJEuw at 10,40 size 100,32 {
   		path "/home/mukendi/opt/WebDriver/bin/geckodriver"
   		name firefox
+  	}
+  	
+  	Username _QiUawBwdEeyiKOawQ5KrHQ at 140,40 size 100,32 {
+  		value "john"
+  	}
+  	
+  	Email _RcinUBwdEeyiKOawQ5KrHQ at 260,40 size 137,32 {
+  		value "j.doe@example.com"
+  	}
+  	
+  	Password _SVHOEBwdEeyiKOawQ5KrHQ at 420,40 size 100,32 {
+  		value "pwd"
+  	}
+  }
+  
+  FeatureContainer _OcelEBwcEeya_ugFXUgyOQ at 10,120 size 300,361 index 1 {
+  	title "Login Feature"
+  	Start _h6igQRwcEeya_ugFXUgyOQ at 90,50 size 96,32 {
+  		-Edge-> _ZAc-kRaUEey3aNLxBBi3hw  decorate "" at (0,0) {
+  			id _HswvURwdEeyiKOawQ5KrHQ
+  		}
+  	}
+  	
+  	DocNode _ZAc-kRaUEey3aNLxBBi3hw at 88,150 size 100,50 {
+  		createScreenshots true
+  		libraryComponentUID "_NU-AkPPyEeufjZCmnkuwew"
+  		-Edge-> _FzxNYBwdEeyiKOawQ5KrHQ  decorate "" at (0,0) {
+  			id _IB1ncRwdEeyiKOawQ5KrHQ
+  		}
+  	}
+  	
+  	End _FzxNYBwdEeyiKOawQ5KrHQ at 90,300 size 96,32 {
   	}
   }
 }

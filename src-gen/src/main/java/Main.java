@@ -37,9 +37,9 @@ class Main implements Runnable{
 	private static Long DEFAULT_TIMEOUT = 10L;
 
 	private Main() {
-		username = "";
-		email = "";
-		password = "";
+		username = "john";
+		email = "j.doe@example.com";
+		password = "pwd";
 		System.setProperty("webdriver.gecko.driver", "/home/mukendi/opt/WebDriver/bin/geckodriver");
 		firefoxDriver = new FirefoxDriver();
 		wait = new WebDriverWait(firefoxDriver, Duration.ofSeconds(DEFAULT_TIMEOUT));
@@ -53,31 +53,22 @@ class Main implements Runnable{
 
 	@Override
 	public void run() {
-		// For every start node in MGL generate a sequence of methods with docMgl.modelName as signature
-		_Kg7Z8RaUEey3aNLxBBi3hw : 
+		// For every feature container in the MGL generate a sequence of methods
 		{
-			// Start of sequence _Kg7Z8RaUEey3aNLxBBi3hw
-			
+			// Start of sequence Login Feature
 			try {
-			this.openBrowser();
-			// DocNode GoToLoginPage
-			this.goToPage("http://localhost:3000/login");
-			// DocNode EnterUserCredentials
-			this.typeIn("_oX-b8hUEEeyWRa0PIot5Mg", "mputustella@yahoo.de");
-			this.closeBrowser();
+			// DocNode Login
+			this.goToPage("http://localhost:3000");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
-		_VIZu8RaUEey3aNLxBBi3hw : 
 		{
-			// Start of sequence _VIZu8RaUEey3aNLxBBi3hw
-			
+			// Start of sequence Login Feature 2
 			try {
-			this.openBrowser();
-			// DocNode Login
-			this.goToPage("http://localhost:3000");
-			this.closeBrowser();
+			// DocNode GoToLoginPage
+			this.goToPage("http://localhost:3000/login");
+			// DocNode EnterUserCredentials
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -111,33 +102,36 @@ class Main implements Runnable{
 		FileUtils.copyFile(source, new File("./"+folderName+"/" + pictureName + ".png"));
 		return true;
 	}
+	public WebElement findPageElement(String selector, String selector_value)
+	{
+		return Main.firefoxDriver.findElement(By.xpath("//*[@"+selector+"='"+selector_value+"']"));
+	}
 	public void highlightElement(WebElement elem)
 	{
 		JavascriptExecutor jsExec = (JavascriptExecutor)Main.firefoxDriver;
 		jsExec.executeScript("arguments[0].setAttribute('style','border: 2px solid red;');", elem);
 	}
-	public Boolean typeIn(String elementID, String contentText)
+	public Boolean typeIn(String selector, String selectorValue, String contentText)
 	{
-		WebElement inputField = Main.firefoxDriver.findElement(By.id(elementID));
-		highlightElement(inputField);
+		WebElement inputField = findPageElement(selector, selectorValue);
 		inputField.sendKeys(contentText + Keys.TAB);
 		return true;
 	}
 	public Boolean clickBtn(String selector, String value)
 	{
-		WebElement btn = Main.firefoxDriver.findElement(By.xpath("//button[@"+selector+'='+value+"]"));
+		WebElement btn = findPageElement(selector, value);
 		btn.click();
 		return true;
 	}
 	public Boolean pressEnter()
 	{
-		WebElement enterBtn = Main.firefoxDriver.findElement(By.xpath("//button[@type='submit']"));
+		WebElement enterBtn = findPageElement("type", "submit");
 		highlightElement(enterBtn);
 		enterBtn.click();
 		return true;
 	}
 	public void closeBrowser()
 	{
-		Main.firefoxDriver.quit();
+		Main.firefoxDriver.close();
 	}
 }

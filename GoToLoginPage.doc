@@ -1,18 +1,26 @@
 DocGraphModel _BOZ00fQJEeufjZCmnkuwew {
   modelName "GoToLoginPage"
   Start _B8misfQJEeufjZCmnkuwew at 30,210 size 96,32 {
+  	  	
   	-Transition-> _C23LgfQJEeufjZCmnkuwew  decorate "" at (0,0) {
-  		id _DVtDoPQJEeufjZCmnkuwew
+  		id _6IVLkRsMEeybZd1BQHV4ow
   	}
   }
   
-  Stop _CXZBQfQJEeufjZCmnkuwew at 420,210 size 96,32 {
+  EndNode _CXZBQfQJEeufjZCmnkuwew at 420,210 size 96,32 {
   }
   
   Navigation _C23LgfQJEeufjZCmnkuwew at 210,210 size 125,32 {
   	link "http://localhost:3000/login"
   	-Transition-> _CXZBQfQJEeufjZCmnkuwew  decorate "" at (0,0) {
   		id _DlzVIfQJEeufjZCmnkuwew
+  	}
+  }
+  
+  Comment _zuMZsRsMEeybZd1BQHV4ow at 260,410 size 126,40 {
+  	content "Enter the login page URL"
+  	-Anchor-> _C23LgfQJEeufjZCmnkuwew  decorate "" at (0,0) {
+  		id _0FEooRsMEeybZd1BQHV4ow
   	}
   }
 }
