@@ -54,11 +54,18 @@ class GetSeleniumScreenshots implements Runnable{
 	@Override
 	public void run() {
 		// For every feature container in the MGL generate a sequence of methods
+		this.openBrowser();
 		{
 			// Start of sequence Login Feature
 			try {
-			// DocNode Login
-			this.goToPage("http://localhost:3000");
+				// DocNode Login
+				this.goToPage("http://localhost:3000");
+				this.clickBtn("data-target", "#login_main");
+				this.typeIn("id", "password", "Asdfjklö");
+				this.typeIn("id", "email", "mputustella@yahoo.de");
+				this.takePageScreenshot("", "UserCredentials"); 
+				this.clickBtn("type", "submit");
+				this.takePageScreenshot("", "SubmitBtn"); 
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
@@ -66,13 +73,19 @@ class GetSeleniumScreenshots implements Runnable{
 		{
 			// Start of sequence Login Feature 2
 			try {
-			// DocNode GoToLoginPage
-			this.goToPage("http://localhost:3000/login");
-			// DocNode EnterUserCredentials
+				// DocNode GoToLoginPage
+				this.goToPage("http://localhost:3000/login");
+				// DocNode EnterUserCredentials
+				this.typeIn("id", "password", "Asdfjklö");
+				this.typeIn("id", "email", "mputustella@yahoo.de");
+				this.takePageScreenshot("", "UserCredentials"); 
+				this.clickBtn("type", "submit");
+				this.takePageScreenshot("", "SubmitBtn"); 
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
+		this.closeBrowser();
 	}
 
 	/*================== Selenium Methods ==================*/
@@ -116,6 +129,9 @@ class GetSeleniumScreenshots implements Runnable{
 		WebElement inputField = findPageElement(selector, selectorValue);
 		inputField.sendKeys(contentText + Keys.TAB);
 		return true;
+	}
+	public Boolean waitUntilElementPresent(String elementID) {
+		return wait.until(presenceOfElementLocated(By.xpath("//*[@id='"+elementID+"']")))!= null;
 	}
 	public Boolean clickBtn(String selector, String value)
 	{

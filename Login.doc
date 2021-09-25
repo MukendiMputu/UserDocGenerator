@@ -20,7 +20,7 @@ DocGraphModel _NU-AkPPyEeufjZCmnkuwew {
   }
   
   SubDoc _WHY18BUDEeyWRa0PIot5Mg at 100,90 size 121,40 {
-  	createScreenshots true
+  	createScreenshots false
   	libraryComponentUID "_BOZY4fQJEeufjZCmnkuwew"
   	-Transition-> _if1pcRBaEey9vpAjNZRbIA  decorate "" at (0,0) {
   		id _YTKJ8RUDEeyWRa0PIot5Mg
